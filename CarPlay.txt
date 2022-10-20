@@ -1,0 +1,9 @@
+# Support for instrument cluster displays
+Starting with iOS 15.4, you can add support for instrument cluster displays in supported vehicles.
+Display your map and upcoming maneuvers, so they are visible at a glance in the car’s instrument cluster display.
+
+**CPTemplateApplicationDashboardScene** and **CPTemplateApplicationInstrumentClusterScene**
+are new UIScene subclasses that CarPlay creates when it determines that your app should appear in CarPlay Dashboard or the instrument cluster.
+
+
+Making a change here, don't mind me.
